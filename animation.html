@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            /* animation-name: mybox;
+            animation-duration: 1s; */
+            position: relative;
+            animation: mybox 2s ease-in-out infinite;
+
+
+        }
+
+
+
+        @keyframes mybox {
+
+            from{
+                left: 0;
+                transform: rotate(0);
+
+            }
+            to{
+                left: 500px;
+                background-color: rgb(0, 8, 255);
+                /* border-radius: 50px; */
+                transform: rotate(360deg);
+
+            }
+
+            /* 0%{
+                left: 0px;
+            }
+            50%{
+                left: 100px;
+                background-color: blue;
+            }
+            100%{
+                left: 200px;
+                top: 100px;
+            } */
+
+            
+        }
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+
+
+
+
+    
+</body>
+</html>

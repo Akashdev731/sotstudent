@@ -1,0 +1,165 @@
+/* font-family: "Lobster", sans-serif */
+*{
+    margin: 0;
+    padding: 0;
+}
+.gridlyout{
+    width: 80%;
+    margin: auto;
+}
+
+ body{
+    font-family: "Roboto", sans-serif;
+ }
+ nav{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+ }
+/* .postion{
+   position: relative;
+   top: 100px;
+  
+} */
+
+  .navbar{
+  
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+    padding: 20px 20px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    /*  */
+  
+    
+  }
+  .hero-section{
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .content{
+    text-align: center;
+    /* margin-top: 100px; */
+    padding-top: 200px;
+  }
+  .content h1 {
+    letter-spacing: 10px;
+    font-size: 40px;
+    padding-bottom: 50px;
+  }
+  .content p {
+    line-height: 25px;
+    font-size: 18px;
+  }
+  .content button{
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+     padding: 10px 20px;
+     border-style: none;
+     border-radius: 5px;
+     margin-top: 50px;
+  }
+  /* about */
+  .heading-content h1{
+    text-align: center;
+    font-size: 24px;
+    font-family: "Lobster", sans-serif;
+    letter-spacing: 5px;
+    color: rgb(224, 67, 11);
+  }
+  .heading-content p {
+    text-align: center;
+    font-size: 12px;
+    color: rgb(180, 179, 179);
+  }
+  .heading-content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .content-about{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 100px;
+  }
+  .blog-one{
+    width: 300px;
+    height: auto;
+    background-color: rgb(246, 246, 246);
+    padding: 20px;
+    border-radius: 10px;
+
+  }
+  .mainblog{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 100px;
+  }
+
+  .footerbg{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(139, 33, 33);
+  }
+  .footer-content{
+    text-align: center;
+    color: white;
+    padding: 20px 20px;
+
+  }
+  .fab-phone{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50px;
+     position: fixed;
+     top: 80%;
+     left: 95%;
+  }
+  .fab-phone i {
+    margin-left: 15px;
+    margin-top: 15px;
+    color: white;
+  }
+
+/* mobilescreen */
+  @media screen and ( max-width:500px){
+    .content-about{
+      display: block;
+
+    }
+
+    .content-about img{
+      width: 300px;
+      margin-bottom: 10px;
+    }
+    .hero-section {
+      height: 850px;
+    }
+    .navbar {
+      z-index: 5;
+    }
+    .content h1{
+      z-index: -5;
+    }
+    .fab-phone{
+      position: fixed;
+      left: 80% !important;
+    }
+
+
+
+
+    
+  }
